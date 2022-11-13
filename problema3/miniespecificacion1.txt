@@ -1,0 +1,14 @@
+
+1.Inicio
+2.gradosC,d[0-n]
+3.gradosF,d[0-n]
+4.gradosK,d[0-n]
+5.<<"Ingrese la cantidad en grados centigrados"
+6.>>gradosC
+5.  Si gradosC<=100 && gradosC>=0 entonces
+6.   gradosF <-- (9/5*gradosC)+32
+7.   gradosK <-- gradosC+273.15
+8.  Fin si
+9.Fin
+
+

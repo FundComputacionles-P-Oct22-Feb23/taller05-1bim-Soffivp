@@ -1,0 +1,21 @@
+1. Inicio
+2. costokilovatios,d[0-n]
+3. kilovatiosconsumidos,d[0-n]
+4. valorpagar,d[0-n]
+5. descuento <-- 10%
+6. edad,i[0-n]
+7. <<"Ingresar el costo del kilovatio por hora"
+8. >>costokilovatios
+9. <<"Ingresar el número de kilovatios consumidos en el mes"
+10 >>kilovatiosconsumidos
+11.<<"Ingrese la edad el usuario"
+12.>>edad
+13.valorpagar <-- costokilovatios*kilovatiosconsumidos
+   // El descuento es de 10%, lo que significa que pagara del 90%, 90/100=0.9 lo multiplicamos por el total a pagar para obtener
+      el valor neto a pagar del 90%.
+14. Si edad > 65 entonces
+15. valorpagar <-- valorpagar*0.9
+16. <<"El valor a pagar es: " + valorpagar
+17. Fin Si
+18.<<"El valor a pagar es: " + valorpagar
+19.Fin

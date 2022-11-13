@@ -1,0 +1,47 @@
+
+ALGORITMO
+1. Inicio.
+2. Pedir la edad del usuario.
+3. Pedir los litros consumidos de agua.
+4. Pedir el costo de cada litro de agua.
+5. Pedir el numero de minutos telefonicos gastados en el mes.
+6. Pedir el costo de cada minuto telefonico.
+7. Calcular el total a pagar del agua multiplicando los litros de agua 
+   consumidos por el precio por litro.
+8. Calcular el total a pagar del telefono multiplicando el numero de minutos
+   gastados por el precio del minuto.
+9. Sumar el valor calculado del agua y telefono.
+10.Verificar si el usuario es tiene una edad menor a 20 años para saber si accede al descuento.
+11.Si lo hace se le aplica el 20% de descuento, al valor total de gastos se le multiplica el 0.8. 
+12.Se presenta en pantalla el total a pagar.
+13.Si el usuario tiene una edad mayor a 20 años se muestra el valor a pagar sin descuento.
+14.Fin.
+
+MINIESPECIFICACION
+1. Inicio
+2. edad,i[0-n]
+3. litrosconsumidos,d[0-n] 
+4. valorlitro,d[0-n] 
+5. totalagua,d[0-n] 
+6. numerominutos,d[0-n] 
+7. costominutos,d[0-n] 
+8. totaltelefono,d[0-n] 
+9. totalpagar
+10.<<"Ingrese la edad del usuario"
+11.>>edad
+12.<<"Ingrese litros consumidos de agua"
+13.>>litrosconsumidos
+14.<<"Ingrese el costo de cada litro de agua"
+15.>>costolitro
+16.<<"Ingrese el numero de minutos telefonicos gastados en el mes"
+17.>>numerominutos
+18.<<"Ingrese el costo de cada minuto telefonico."
+19.>>costominutos
+20.totalagua <-- litrosconsumidos*costolitro
+21.totaltelefono <-- numerominutos*costominutos
+22.totalpagar <-- totalagua+totaltelefono
+23. Si edad<20 entonces
+24.  totalpagar <-- totalpagar*0.8
+25. Fin si
+26.<<"El total a pagar es: " +totalpagar
+27.Fin

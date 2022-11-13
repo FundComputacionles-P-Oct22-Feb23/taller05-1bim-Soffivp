@@ -1,0 +1,14 @@
+
+1. Inicio
+2. costototal,d[0-n]
+3. descripcion,x(100)[{a-z},{A-Z},{BS}]
+4. cantidad,i[0-n]
+5  precio,d[0-n]
+6. descuento <-- 15
+9. costototal <-- precio*cantidad
+10.  Si cantidad>50 entonces 
+11.   descuento <-- (descuento*costototal)/100
+12.   costototal <-- costototal-descuento
+13.  Fin si
+14.<<"El total a pagar es: " +costototal
+15.Fin
